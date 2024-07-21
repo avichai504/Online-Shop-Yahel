@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.nav-bar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar h2 {
+    font-size: 40px;
+    text-align: center;
+    /* Additional styling to center the element horizontally */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar shop-name {
+    font-size: 50px; /* Adjust this size as needed to be bigger */
+    text-align: center;
+    /* Additional styling to center the element horizontally */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bag{
+    display: flex;
+    align-items: center;
+}
+
+.bag-quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: yellow;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-left: 5px;
+}
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(68,68,68);
+    min-height: 80vh;
+}
+
+.not-found h2{
+    font-size: 55px;
+}
+
+.not-found p{
+    font-size: 20px;
+}
+
+.fruits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: rgb(68,68,68);
+    min-height: 80vh;
+}
+
+.fruits h2{
+    font-size: 55px;
+}
+
+.vegetables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: rgb(68,68,68);
+    min-height: 80vh;
+}
+
+.vegetables h2{
+    font-size: 55px;
+}
+
+.green-leafs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: rgb(68,68,68);
+    min-height: 80vh;
+}
+
+.green-leafs h2{
+    font-size: 55px;
+}
+
+.nuts-and-seeds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: rgb(68,68,68);
+    min-height: 80vh;
+}
+
+.nuts-and-seeds h2{
+    font-size: 55px;
+}
