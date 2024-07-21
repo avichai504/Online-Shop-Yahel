@@ -1,7 +1,6 @@
 # Project File System
 
-
-
+```
 /project-root
 │
 ├── /client                   # React client-side application
@@ -63,10 +62,9 @@
 ├── .env                      # Environment variables
 └── README.md                 # Project documentation
 
-
+```
 
 # Packages to install on the Server side
-
 
 ## Essential Packages
 
@@ -95,8 +93,6 @@ To install these packages, you can run the following command:
 npm install express mongoose dotenv cors body-parser morgan bcryptjs jsonwebtoken express-validator helmet
 npm install --save-dev nodemon eslint prettier
 ```
-
-
 
 # Packages for the Clirnt side
 
